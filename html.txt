@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Kabus Development, Uzbektourism">
+    <title>UZBEKTOURISM | GMDC Data Confirmation</title>
+    
+    <!-- Mobile settings -->
+    <link rel="shortcut icon" href="https://emehmon.uz/favicon.ico" type="image/x-icon">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap" rel="stylesheet">
+    
+    <style>
+        .tab-content {
+            background-color: #fff;
+        }
+        table.dataTable {
+            font-family: 'Open Sans', Courier, monospace;
+            margin-left: 15px;
+        }
+        .label-view {
+            font-weight: bold;
+        }
+        .text-uppercase {
+            text-transform: uppercase;
+        }
+        .text-info {
+            color: #17a2b8;
+        }
+        .font-bold {
+            font-weight: bold;
+        }
+        .nav-tabs .nav-item {
+            border-bottom: 1px solid #ddd;
+        }
+        .nav-tabs .nav-link {
+            border: none;
+        }
+        .nav-tabs .nav-link.active {
+            border: none;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-12">
+                <h4 style="font-family: 'Open Sans', Arial, sans-serif">
+                    <img src="https://emehmon.uz/sximo/images/mvd.jpg" width="95px" style="vertical-align: bottom">
+                    &nbsp;<b>ORIGIN DATA: </b>
+                    <span style="color:#0e76a8; text-shadow: #002D31; text-transform: uppercase">
+                        ce1dd3c90564e062dafdb5455da7f94c5ccdc1b3
+                    </span>
+                </h4>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-md-12">
+                <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#tabdetail01" data-toggle="tab"><b>Mehmon haqida ma`lumot</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tabdetail001" data-toggle="tab"><b>Vaqtincha yashash manzili</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tabdetail002" data-toggle="tab"><b>Bolalari</b></a>
+                    </li>
+                </ul>
+                <div class="tab-content mt-3">
+                    <div class="tab-pane active" id="tabdetail01">
+                        <table class="dataTable">
+                            <tbody>
+                                <tr>
+                                    <td class='label-view'><label>Qayd raqami: </label></td>
+                                    <td><strong>11-00584143-24</strong></td>
+                                </tr>
+                                <tr>
+                                    <td class='label-view'><label>Familiya, Ismi, Sharifi: </label></td>
+                                    <td>IVANOV ALEKSANDR XXX</td>
+                                </tr>
+                                <tr>
+                                    <td class='label-view'><label>Tug`ilgan sanasi: </label></td>
+                                    <td>25-10-1990</td>
+                                </tr>
+                                <tr>
+                                    <td class='label-view'><label>Fuqaroligi: </label></td>
+                                    <td>
+                                        <img src="https://emehmon.uz/uploads/flags/137.png" width="36px" style="border: solid 1px #666"/>
+                                        &nbsp; KAZAKHSTAN
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class='label-view'><label>Hujjat turi: </label></td>
+                                    <td class="text-info font-bold">Паспорт <b>N11091613</b></td>
+                                </tr>
+                                <tr>
+                                    <td class='label-view'><label>Hujjat berilgan: </label></td>
+                                    <td>09-06-2017</td>
+                                </tr>
+                                <tr>
+                                    <td class='label-view'><label>Hujjat amal qilish muddati: </label></td>
+                                    <td>08-06-2027</td>
+                                </tr>
+                                <tr>
+                                    <td class='label-view'><label>Jinsi: </label></td>
+                                    <td>Erkak</td>
+                                </tr>
+                                <tr>
+                                    <td class='label-view'><label>Roy`yxatga olgan organ: </label></td>
+                                    <td>ТОШКЕНТ ШАҲАР МИРОБОД ТУМАНИ ИИБ</td>
+                                </tr>
+                                <tr>
+                                    <td class='label-view'><label>Qayd sanasi: </label></td>
+                                    <td>04.05.2024 09:55:07</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="tab-pane" id="tabdetail001">
+                        <table class="table table-condensed">
+                            <tbody>
+                                <tr>
+                                    <td class='label-view'><label>VILOYAT: </label></td>
+                                    <td>TOSHKENT SHAXRI</td>
+                                </tr>
+                                <tr>
+                                    <td class='label-view'><label>TUMAN/SHAHR: </label></td>
+                                    <td>MIROBOD TUMANI</td>
+                                </tr>
+                                <tr>
+                                    <td class='label-view'><label>YASHASH MANZILI: </label></td>
+                                    <td class="text-uppercase">Истиклолабад МФЙ, Саракул кучаси, 4а-уй, 23-хонадон 4а 20</td>
+                                </tr>
+                                <tr>
+                                    <td class='label-view'><label>UY EGASINING F.I.SH: </label></td>
+                                    <td class="text-uppercase">GUSAKOVA ALEKSANDRA</td>
+                                </tr>
+                                <tr>
+                                    <td class='label-view'><label>VIZA: </label></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td class='label-view'><label>VIZA MUDDATI: </label></td>
+                                    <td><b></b></td>
+                                </tr>
+                                <tr>
+                                    <td class='label-view'><label>PROPISKA MUDDATI: </label></td>
+                                    <td><b>04-05-2024 - 25-10-2024</b></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="tab-pane" id="tabdetail002">
+                        <table class="table table-condensed">
+                            <thead>
+                                <tr>
+                                    <th>№</th>
+                                    <th>F.I.SH</th>
+                                    <th>Tug`ilgan sanasi</th>
+                                    <th>Jinsi</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- Child information rows go here -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript files -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
